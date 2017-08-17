@@ -35,13 +35,7 @@
     <ClInclude Include="..\..\Compositor\CompositorDLL\IFrameProvider.h">
       <Filter>FrameProviders</Filter>
     </ClInclude>
-    <ClInclude Include="DeckLinkAPI_h.h" />
     <ClInclude Include="..\..\Compositor\CompositorDLL\ElgatoFrameProvider.h">
-      <Filter>FrameProviders</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Compositor\CompositorDLL\IVideoCaptureFilter.h" />
-    <ClInclude Include="..\..\Compositor\CompositorDLL\IVideoCaptureFilterTypes.h" />
-    <ClInclude Include="..\..\Compositor\CompositorDLL\qedit.h">
       <Filter>FrameProviders</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Compositor\CompositorDLL\ElgatoSampleCallback.h">
@@ -65,7 +59,6 @@
     <ClCompile Include="..\..\Compositor\CompositorDLL\OpenCVFrameProvider.cpp">
       <Filter>FrameProviders</Filter>
     </ClCompile>
-    <ClCompile Include="DeckLinkAPI_i.c" />
     <ClCompile Include="..\..\Compositor\CompositorDLL\ElgatoFrameProvider.cpp">
       <Filter>FrameProviders</Filter>
     </ClCompile>
@@ -88,8 +81,5 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Midl Include="DeckLinkAPI.idl" />
   </ItemGroup>
 </Project>
